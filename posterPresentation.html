@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang ="en" >
+<title>SOURCE 2016</title>
+
+<head>
+ <meta name = "viewport" content = "width=device-width, initial-scale= 1.0">
+
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+ <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+ <!-- Bootstrap core CSS -->
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+ <link href="css/dataTables.bootstrap.css" rel="stylesheet">
+ 
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ <link rel = "stylesheet" type = "text/css" href = "css/header.css"/>
+ <link rel = "stylesheet" type = "text/css" href = "css/navigation.css"/>
+ <link rel = "stylesheet" type = "text/css" href = "css/aside navigation.css"/>
+ <link rel = "stylesheet" type = "text/css" href = "css/main navigation.css"/>
+  <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="css/mobileCSS.css" />
+
+ </head>
+ <title>SOURCE 2016</title>
+<body>
+</head>
+
+
+
+
+
+<header >
+ 
+<div id="fixedheader"> 
+
+<div id = "postcard">
+<a href = "index.html">
+<img src = "  sourcePictures/postcard.jpg"  width="160px" height="60px">
+</a>
+</div>
+</div>
+
+
+</header>
+
+
+
+<div class= "wrap">
+<nav class = "horizontal"> 
+      <ul class = "main">
+	     
+	     
+	     <!-- under this tab schedule/program at a glance -->
+         <li><a href = "scheduleD.html"> Schedule </a></li>
+		 <!-- presentation by section, time, topic ect...-->
+		
+		 <!-- campus/surc maps -->
+		 
+         <li><a href="oralPresentation.html">Oral Presentations</a></li>
+		   <li><a href="PosterPresentation.html">Poster Presentations</a></li>
+        <li><a href="Judges.html">Judges</a></li>
+
+
+     
+	</ul>
+	</nav>
+	</div>
+
+
+	<div id ="container">
+<div class="wrapper">
+  <aside class="vertical">
+    <ul>
+  <li><a class="active" href="index.html">Home</a></li>
+<li><a href="ScheduleAtAGlance.html">Program At A Glance</a></li>
+  <li><a href="https://www.cwu.edu/facility/sites/cts.cwu.edu.facility/files/documents/Campus%20Map.pdf">Maps</a></li>
+  <!-- presenters, abstracts,topics -->
+   <li><a href="PosterVote.html">Vote On Next Years Poster</a></li>
+  <li><a href="http://www.cwu.edu/source/source-2015-sponsors">Sponsors</a></li>
+ <li><a href="http://www.cwu.edu/source/what-source">Presidents Welcome Letter</a></li>
+ 
+    </ul>
+<div id = "source">
+
+<img  src = "sourcePictures/poster.jpg" height= 260px width = 200px>
+
+
+</div>
+  </aside>
+  
+</div>	
+
+</div>
+
+<div id="section">
+<div class="container-fluid">
+
+      <h2>Detailed Schedule of Events</h2>
+      
+      <div id='table-container'></div>
+		<script>
+			function showAbs(id) {
+				alert(document.getElementById(id).innerHTML, 'Abstract');
+			}
+		</script>
+    </div><!-- /.container -->
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.csv.min.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.bootstrap.js"></script>
+    <script src='js/presentationTable.js'></script>
+
+    <script>
+      init_table({
+        csv_path: 'data/posterPresentationData.csv', 
+        element: 'table-container', 
+      
+        csv_options: {separator: ',', delimiter: '"'},
+    
+      });
+    </script>
+	<footer>
+<div id="fixedfooter">SOURCE 2016
+<div id = "socialM">
+
+<a href="https://twitter.com/cwusource">
+<img  src="socialM/twitter.jpg" width="35" height="35" />
+</a>
+<a href="https://www.facebook.com/cwusource">
+<img  src="socialM/facebook.png" width="35" height="35" />
+</a>
+
+</div>
+</div>
+</footer>
+		 
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+	background-color: #FFFFFF;
+	margin:0 0 0 0;
+	width:100%;
+}
+
+#source{
+width:160px;
+height:60px;	
+	
+}
+div#fixedheader {
+
+	font: bold  25px  sans-serif;
+	
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#FFFFFF;
+
+
+	background:#13AFA2;
+	
+}
+div#fixedfooter {
+	font: bold  15px  sans-serif;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#FFFFFF;
+	background:#13AFA2;
+    overflow:auto;
+	padding:0 0 0 0;
+	
+}
+
+
+
+#socialM{
+	
+	float:right;
+	margin: 0 20px 0 0;
+	
+	
+}
+
+#postcard{
+	margin: 0;
+    padding: 0;
+	width:160px; 
+	height:60px;
+	
+}

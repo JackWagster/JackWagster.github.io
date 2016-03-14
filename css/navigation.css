@@ -1,0 +1,85 @@
+nav.body{
+	font: sans-serif;
+	margin:0  0 0 0;
+	padding:0 0 0 0:
+	font-size: 100%; 
+	width:100%;
+}
+/*
+centers the header nav
+to change + - 15 px
+*/
+nav.horizontal{
+	background-color: #333;
+	margin:  0 0 0 0;
+	padding: 0 0 0 0;
+	overflow:hidden;
+	width:100%;
+	
+}
+
+/*
+makes the header bigger or smaller, width
+to change must add or remove + - 15px
+*/
+nav.horizontal ul{
+	font: bold  12px  sans-serif;
+	
+	margin:0;
+	padding:0;
+
+}
+/*
+moves the items in block format
+*/
+nav.horizontal ul li{
+	display: inline-block;
+	
+    list-style-type: none;
+	margin: 0 0 0 0;
+	
+	border-right: 1px solid rgb(126,192,185);
+	border-top:1px solid rgb(126,192,185);
+	border-left:1px solid rgb(126,192,185);
+}
+
+/*
+changes size of header
+*/
+nav.horizontal > ul > li > a {
+	font:bold  20px  sans-serif;
+	margin:0 12px 0 12px;
+	color: white;
+	display: inline-block;
+	
+	text-align: center;
+	text-decoration: none;
+	
+	padding-top:0;
+
+}
+
+nav.horizontal form{
+	display: inline-block;
+	padding:0 50px;
+    margin: 50px  20px
+    overflow: hidden; /* Clear floats */
+	
+	
+}
+nav.horizontal a.active {
+    color: black;
+}
+nav.horizontal a:hover:not(.active) {
+	margin:0 12px 0 12px
+    background-color: #555;
+    color: #13AFA2;
+	padding: 0 0 0 0;
+}
+nav.horizontal a:hover:after(.active) {
+    background-color: #555;
+    color: #333;
+	padding: 0 0 0 0;
+}
+
+

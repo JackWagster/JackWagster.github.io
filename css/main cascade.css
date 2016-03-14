@@ -1,0 +1,23 @@
+div.wrapper2 {
+
+}
+
+body{
+	font: bold  15px  sans-serif;
+
+}
+
+#section {
+    
+	padding:0 0 0 0;
+	margin: 0 100px 100px 100px;
+   height: 1000px;
+
+	overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+#p1{
+	font: bold  25px sans-serif;
+}

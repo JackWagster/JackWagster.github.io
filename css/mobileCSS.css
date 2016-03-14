@@ -1,0 +1,225 @@
+@media only screen and (max-device-width: 480px) {
+		div.wrapper {
+			width: 600px;
+		}
+		
+body{
+width:100%;
+
+}
+	
+	
+	
+ #section{
+  
+    padding:0;
+	margin: 0 0 0 0;
+    height:auto;
+	overflow-y: scroll;
+    overflow-x: scroll;
+    size:auto;
+	
+}
+
+
+
+
+aside{
+	float: left;
+	margin-right:0;
+	display:inline;
+	size:20%;
+	
+}
+nav.body{
+	font: sans-serif;
+	margin:0  0 0 0;
+	padding:0 0 0 0:
+	font-size: 100%; 
+	
+}
+/*
+centers the header nav
+to change + - 15 px
+*/
+nav.horizontal{
+	background-color: #333;
+	margin:  0 0 0 0;
+	padding: 0 0 0 0;
+	overflow:hidden;
+	
+	
+}
+
+/*
+makes the header bigger or smaller, width
+to change must add or remove + - 15px
+*/
+nav.horizontal ul{
+	font: bold  5px  sans-serif;
+	
+	margin:0;
+	padding:0;
+
+}
+/*
+moves the items in block format
+*/
+nav.horizontal ul li{
+	display: inline-block;
+	
+    list-style-type: none;
+	margin: 0 0 0 0;
+	
+	
+}
+
+/*
+changes size of header
+*/
+nav.horizontal > ul > li > a {
+	font:bold  8px  sans-serif;
+	margin:0 6px 0 6px;
+	color: white;
+	display: inline-block;
+	
+	text-align: center;
+	text-decoration: none;
+	
+	padding-top:0;
+
+}
+
+nav.horizontal form{
+	display: inline-block;
+	padding:0 50px;
+    margin: 50px  20px
+    overflow: hidden; /* Clear floats */
+	
+	
+}
+nav.horizontal a.active {
+    color: black;
+}
+nav.horizontal a:hover:not(.active) {
+	margin:0 12px 0 12px
+    background-color: #555;
+    color: #13AFA2;
+	padding: 0 0 0 0;
+}
+nav.horizontal a:hover:after(.active) {
+    background-color: #555;
+    color: #333;
+	padding: 0 0 0 0;
+}
+
+
+
+
+
+
+#source{
+display:none;
+	
+}
+#container{
+	
+    overflow-y: hidden;
+    overflow-x: hidden;
+width:60px;
+height:200px;
+	margin: 0;
+	overflow:auto;
+	
+}
+
+
+
+aside.vertical{
+	float:left;
+   
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	overflow:hidden;
+}
+
+aside.vertical ul {
+	
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 60px;
+    background-color: #333;
+	
+}
+
+aside.vertical li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    font:bold  5px  sans-serif;
+	text-decoration: none;
+}
+
+aside.vertical li {
+    text-align: center;
+    border: 1px solid #555;
+	
+	
+}
+
+
+
+aside.vertical:last-child {
+    border-bottom: none;
+	padding:0 0 0 0
+}
+
+aside.vertical a.active {
+	
+	font:bold  5px  sans-serif;
+    background-color:#13AFA2;
+    color: #white;
+}
+
+aside.vertical a:hover:not(.active) {
+    background-color: white;
+    color: #13AFA2;
+	
+}
+nav.vertical a:hover:after(.active) {
+    background-color: #555;
+    color: white;
+	padding: 0 0 0 0;
+	margin:  0 0 0 0;
+}
+
+div#fixedheader {
+
+width:100%;
+	color:#FFFFFF;
+	background:#13AFA2;
+	
+}
+div#fixedfooter {
+width:100%;
+	color:#FFFFFF;
+	background:#13AFA2;
+  overflow:auto;
+}
+
+
+
+#socialM{
+	
+
+	
+}
+
+#postcard{
+	margin: 0;
+    padding: 0;
+	
+}
+}
+

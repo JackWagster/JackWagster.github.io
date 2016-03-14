@@ -1,0 +1,6 @@
+5	Poster 5	10
+6	Poster 6	5
+4	Poster 4	7
+3	Poster 3	6
+1	Poster 1	20
+2	Poster 2	5

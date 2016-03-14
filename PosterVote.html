@@ -9,14 +9,19 @@
  <link rel = "stylesheet" type = "text/css" href = "css/navigation.css"/>
  <link rel = "stylesheet" type = "text/css" href = "css/aside navigation.css"/>
  <link rel = "stylesheet" type = "text/css" href = "css/main navigation.css"/>
- <meta charset="utf-8">
+ <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="css/mobileCSS.css" />
+
+  <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
  <!-- Bootstrap core CSS -->
  <link href="css/bootstrap.min.css" rel="stylesheet">
  <link href="css/dataTables.bootstrap.css" rel="stylesheet">
- <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="css/mobileCSS.css" />
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/poll.js" type="text/javascript" charset="utf-8"></script>
  </head>
 <body>
 </head>
@@ -31,7 +36,7 @@
 
 <div id = "postcard">
 <a href = "index.html">
-<img src = " sourcePictures/postcard.jpg" width="160px" height="60px">
+<img src = "  sourcePictures/postcard.jpg" width="160px" height="60px">
 </a>
 </div>
 </div>
@@ -52,8 +57,9 @@
 		 <!-- campus/surc maps -->
 		 
          <li><a href="oralPresentation.html">Oral Presentations</a></li>
-		<li><a href="posterPresentation.html">Poster Presentations</a></li>
+     <li><a href="posterPresentation.html">Poster Presentations</a></li>
         <li><a href="Judges.html">Judges</a></li>
+
 		  
      
 	</ul>
@@ -69,16 +75,15 @@
 <li><a href="ScheduleAtAGlance.html">Program At A Glance</a></li>
   <li><a href="https://www.cwu.edu/facility/sites/cts.cwu.edu.facility/files/documents/Campus%20Map.pdf">Maps</a></li>
   <!-- presenters, abstracts,topics -->
-  <li><a href="PosterVote.html">Vote On Next Years Poster</a></li>
+  <li><a href="">Vote On Next Years Poster</a></li>
   <li><a href="http://www.cwu.edu/source/source-2015-sponsors">Sponsors</a></li>
+  
   <li><a href="http://www.cwu.edu/source/what-source">Presidents Welcome Letter</a></li>
  
     </ul>
 <div id = "source">
 
 <img  src = "sourcePictures/poster.jpg" height= 260px width = 200px>
-
-
 
 </div>
   </aside>
@@ -87,9 +92,19 @@
 
 </div>
 
-<div id="section">
-<p> SOURCE</p>
+<div id="poll-container">
+    <form id='poll' action="poll.php" method="post" accept-charset="utf-8">
+        <p>Choose Your Favorite Poster to be Next Years SOURCE Poster:</p>
+        <p><input type="radio" name="poll" value="opt1" id="opt1" /><label for='opt1'>&nbsp;Poster 1</label><br />
+        <input type="radio" name="poll" value="opt2" id="opt2" /><label for='opt2'>&nbsp;Poster 2</label><br />
+        <input type="radio" name="poll" value="opt3" id="opt3" /><label for='opt3'>&nbsp;Poster 3</label><br />
+        <input type="radio" name="poll" value="opt4" id="opt4" /><label for='opt4'>&nbsp;Poster4</label><br />
+        <input type="radio" name="poll" value="opt5" id="opt5" /><label for='opt5'>&nbsp;Poster 5</label><br />
+        <input type="radio" name="poll" value="opt6" id="opt6" /><label for='opt6'>&nbsp;Poster 6</label><br /><br />
+        <input type="submit" value="Vote &rarr;" /></p>
+    </form>
 </div>
+
 <footer>
 <div id="fixedfooter">SOURCE 2016
 <div id = "socialM">
